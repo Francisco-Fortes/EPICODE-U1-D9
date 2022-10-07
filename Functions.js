@@ -12,21 +12,29 @@ ASSIGNMENT RULES
  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
 */
 
-/* WRITE YOUR ANSWER HERE */
+function area(l1, l2) {
+  return l1 * l2;
+}
+let areaRectangle = area(2, 4);
+console.log(areaRectangle);
 
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
 
-/* WRITE YOUR ANSWER HERE */
+function crazySum(integer1, integer2) {
+ if (integer1 === integer2) {
+    console.log( (integer1 + integer2) *3);
+ } else ( integer1 ==! integer2) console.log(crazySum)
+
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
  It should return triple their absolute difference if the given number is greater than 19.
 */
 
-/* WRITE YOUR ANSWER HERE */
+function crazyDiff(givenNumber,)
 
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 20 and 100 (included) or if n it's equal to 400.
